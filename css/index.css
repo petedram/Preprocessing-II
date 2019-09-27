@@ -193,14 +193,35 @@ img {
   padding-top: 20px;
   border-bottom: 1.5px dashed lightgrey;
 }
+@media (max-width: 500px) {
+  .navigation {
+    padding-bottom: 5px;
+    justify-content: space-around;
+  }
+}
 .navigation a {
   padding: 20px;
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
+  width: 24%;
+}
+@media (max-width: 500px) {
+  .navigation a {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0;
+  }
 }
 .navigation h1 {
-  padding-right: 35%;
+  padding-right: 30%;
+}
+@media (max-width: 500px) {
+  .navigation h1 {
+    width: 100%;
+    text-align: center;
+    padding-right: 0%;
+  }
 }
 .footer {
   width: 100%;
